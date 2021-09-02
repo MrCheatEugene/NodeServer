@@ -8,7 +8,7 @@ Download and extract nodeserver archive. It can be found in releases. From v.1.1
 3. If it says `Done! Listening on port `port that you've entered before`; Content-Type is text/html. Using index.html file for
 all of the requests.` and you can access server then, Congrats! The server was set up right and it worked!
 ## On hosting(npm)
-1. Set start command to npm i && npm start.
+1. Set start command to npm i && npm start or npm i && npm test
 2. Start the server.
 3. In pterodactyl it will not show "enter port" message, so you will need to just send port to console. You will need to use port that hosting gave to you. 
 4. If it says `Done! Listening on port `port that you've entered before`; Content-Type is text/html. Using index.html file for
