@@ -8,10 +8,10 @@ all of the requests.` and you can access server then, Congrats! The server was s
 
 # Troubleshooting
 ###### File system error
-##(FOR 1.0 VERSION)
+## (FOR 1.0 VERSION)
 Create `index.html` file in the same folder as an executable.
 If it exists - try setting permissions to 777 OR running `node` as root/administrator/using sudo
-##(FOR FUTURE VERSIONS)
+## (FOR FUTURE VERSIONS)
 Check nodejs console. You will see more details here.
 `New request: GET /(pathtofile)(200) by (ip:port)` messages mean that everything is good.
 `New request: GET /(pathtofile)(404) by (ip:port)` messages mean that server couldn't return file contents and returned 404 not found.
