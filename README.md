@@ -1,7 +1,7 @@
 # NodeServer
 Simple nodejs server.  Uses HTTP,FS,Readline libaries(installed in nodejs by default).
 # Installing
-Download and extract nodeserver archive. It can be found in releases.
+Download and extract nodeserver archive. It can be found in releases. From v.1.1.2 Requires https://www.npmjs.com/package/mime-types
 ## On local machine
 1. Run `node app.js`.
 2. Enter the port for webserver.
