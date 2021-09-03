@@ -13,6 +13,8 @@ all of the requests.` and you can access server then, Congrats! The server was s
 3. In pterodactyl it will not show "enter port" message, so you will need to just send port to console. You will need to use port that hosting gave to you. 
 4. If it says `Done! Listening on port `port that you've entered before`; Content-Type is text/html. Using index.html file for
 all of the requests.` and you can access server then, Congrats! The server was set up right and it worked!
+###### From v. 1.2 website folder is separated from code.
+###### From v. 1.1.2 you can protect files from download.
 # Troubleshooting
 ###### File system error
 ## (FOR 1.0 VERSION)
