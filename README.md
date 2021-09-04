@@ -22,8 +22,11 @@ Create `index.html` file in the same folder as an executable.
 If it exists - try setting permissions to 777 OR running `node` as root/administrator/using sudo
 ## (FOR FUTURE VERSIONS)
 Check nodejs console. You will see more details here.
+
+`PHP compilation error in file: ./www/(file).php. Full message:` meants that PHP couldn't finish compiling this file for some reason. 
 `New request: GET /(pathtofile)(200) by (ip:port)` messages mean that everything is good.
 `New request: GET /(pathtofile)(404) by (ip:port)` messages mean that server couldn't return file contents and returned 404 not found.
-`Error opening /(file) Error:Error: ENOENT: no such file or directory` messages mean that the server couldn't get file contents and had to return 404 page contents.
-###### Port is busy
-Change the port
+`RangeError [ERR_SOCKET_BAD_PORT]: Port should be >= 0 and < 65536. Received ` means that you've entered invalid port. Ender valid port.
+`Error opening /www/(file) Error:Error: ENOENT: no such file or directory` messages mean that the server couldn't get file contents and had to return 404 page contents.
+Check that path for (file).
+`Error: listen EADDRINUSE: address already in use :::port` means that port is already in use. Try disabling your firewall/fowarding ports in router/restarting your PC/searching&changing port for some specific app(like another webserver). 
